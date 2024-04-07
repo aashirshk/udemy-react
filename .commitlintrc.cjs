@@ -110,20 +110,7 @@ module.exports = {
     useAI: false,
     aiNumber: 1,
     themeColorCode: "",
-    scopes: [
-      {
-        value: "algorithms(Dart)",
-        name: "algorithms(Dart): Algorithms written in dart langugage.",
-      },
-      {
-        value: "algorithms(Python)",
-        name: "algorithms(Python): Algorithms written in python langugage.",
-      },
-      {
-        value: "commitlintrc",
-        name: "commitlintrc: Configuration file for git commit.",
-      },
-    ],
+    scopes: [],
     enableMultipleScopes: true,
     scopeEnumSeperator: ",",
     allowCustomScopes: true,
@@ -153,6 +140,6 @@ module.exports = {
     defaultBody: "",
     defaultIssues: "",
     defaultScope: "",
-    defaultSubject: "",
+    defaultSubject: '',
   },
 };
