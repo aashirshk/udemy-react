@@ -1,0 +1,15 @@
+#examples {
+  padding-top: 4.5rem;
+}
+
+#examples .content{
+    background-color: rgba(53, 53, 53, 0.72);
+    padding: 10px 20px;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 29px 1px rgba(0, 0, 0, 0.515);
+}
+
+#examples h2 {
+  text-align: left;
+}
+

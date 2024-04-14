@@ -1,0 +1,28 @@
+#examples menu {
+  padding-left: 12px;
+}
+
+#examples menu li {
+  list-style: none;
+  display: inline-block;
+}
+
+#examples menu li button {
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  color: rgba(178, 178, 178, 0.649);
+  padding: 10px;
+  background-color: transparent;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.1rem;
+  border-radius: 7px;
+  transition: 0.3s ease-in;
+  font-weight: 600;
+}
+
+#examples menu li button:hover,
+#examples menu li button.active {
+  background-color: blueviolet;
+  color: white;
+}
